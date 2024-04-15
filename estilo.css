@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(2, 0, 92);
+}
+
+.title {
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: normal;
+    color:rgba(255, 255, 0, 0.637)
+}
+
+.Descripción {
+    font: size 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: normal;
+    line-height: normal;
+    word-spacing: normal;
+    text-align: center;
+    font-style: normal;
+    color:whitesmoke
+}
+
+.portada{
+    width: 500px;
+    height: 300px;
+}
+
+.cards{
+    border: 2px solid yellow;
+    width: fit-content;
+    padding: 1px 1em 2px 1em;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: darkkhaki;
+}
+
+#principal {
+    font-size: 4.5em;
+}
+
+#titulos{
+    
+    width: 60vw;
+    margin: auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+#subtitulo{
+    margin: auto;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards-container{
+   
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+
+}
